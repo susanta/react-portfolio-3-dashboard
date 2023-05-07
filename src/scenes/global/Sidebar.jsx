@@ -44,19 +44,19 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
-        '&.pro-sidebar-inner': {
+        '& .pro-sidebar-inner': {
           background: `${colors.primary[400]} !important`,
         },
-        '&.pro-icon-wrapper': {
+        '& .pro-icon-wrapper': {
           backgroundColor: 'transparent !important',
         },
-        '&.pro-inner-item': {
+        '& .pro-inner-item': {
           padding: '5px 35px 5px 20px !important',
         },
-        '&.pro-inner-item:hover': {
+        '& .pro-inner-item:hover': {
           color: '#868dfb !important',
         },
-        '&.pro-menu-item.active': {
+        '& .pro-menu-item.active': {
           color: '#6870fa !important',
         },
       }}
